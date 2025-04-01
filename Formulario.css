@@ -1,4 +1,4 @@
-style
+
 /*remove a margem padrao*/
 *{margin:0;
 padding:0;
@@ -60,4 +60,66 @@ margin-bottom: 8px; /*espacamento interior*/
 color:#333;
 display:block;}/*faz o label ocupa ruma linha inteira*/
 
+
 /*estilo para os campos de entrada*/
+input[type="text"], 
+input[type="email"],
+input[type="password"],
+input[type="date"],
+
+select
+textarea{width:100%;/* latgura dos campos*/
+padding: 12px;/*preenchimento interno*/
+margin-bottom:15px;/*espacamento inferior*/
+border-radius:8px;/*bordas arredondadas*/
+border:1px solid #ccc; /*borda suave*/
+font-size: 1rem;
+background-color: #f9f9f9;}
+/*estilo para as opcoes de preferencias (checkboxes)*/
+
+.preferencias-group {display:flex;/*usa modelo flex para organizar as caixas de selecao*/
+justify-content: space-between;/*espaco igual entre as opcoes*/
+gap:20px; /*espacamentos entre os itens*/
+margin-bottom: 20px;
+flex-wrap:wrap;} /*permite que as opcoes quebre, para a linha seguin*/
+
+
+.preferencias-group div{
+    display:flex; /*alinha verticalmente a caixa de seleca e o texto*/
+align-items: center;} /*alinha a caixa de selecao e o texto*/
+
+
+
+.preferencias-group input[type="checkbox"] 
+{margin-right: 10px; /*espacamento entre a caixa de selecao e o txt*/
+    transform: scale(1.2);} /*aumenta a caixa de selcao*/
+
+    /*estilo para os botoes de radio (receber notificacoes)*/
+    .radio-group {margin-bottom: 20px;} /*espacamento inferior*/ 
+
+    .radio-group div 
+    {display: flex; /*alinha o botao de radio e txt*/
+     align-items: center;
+     margin-bottom: 10px;} /*alinha verticalmente o txt com o botao de radio*/
+     
+     
+     .radio-group label {margin-left: 10px; /*espacamento a esquerda do txt*/
+     font-size: 1rem;} 
+
+     /*estilo para os botoes do formulario*/
+     .button-group {display: flex; /*usa o modelo flexbox para alinhar os botoes*/
+     justify-content: center; /*alinha os botoes no centro*/
+     gap: 20px;} /*espacamento entre os botoes*/
+
+     /*estilo geral para os botoes*/
+     button {padding: 12px 20px; /*preencimento interno dos botoes*/
+        font-size: 1rem;
+    border-radius: 8px;
+    border:none;/*remover a borda padrao*/
+    cursor:pointer;/*altera o cursor para indidcar que e clicavel*/
+width: 48%;/*largura dos botoes*/
+transition: background-color 0.3 ease;} /*transicao suave na cor de fundo*/
+
+/*efeito ao passar o mouse sobre os botoes*/
+button:hover{opacity: 0.9;}/*leve diminuicao na opacidade do mouse*/
+
