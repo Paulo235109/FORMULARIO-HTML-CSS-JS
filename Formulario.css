@@ -1,0 +1,63 @@
+style
+/*remove a margem padrao*/
+*{margin:0;
+padding:0;
+box-sizing:border-box;} 
+
+/*estilo da pag*/
+body{font-family: Arial, sans-serif;
+background-color:#09e79d;
+display:flex;
+justify-content: center;
+align-items:center;
+min-height:100vh;
+padding:20px;}
+
+/*estilo do formulario*/
+
+form{background-color:#ebe4e4b2;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgb(0, 0, 0);
+width: 100%;
+max-width: 500px;}
+
+/* parte 2 estilizando o formulario com css*/
+style
+
+{margin:0;
+padding:0;
+box-sizing:border-box;}
+
+
+
+body{font-family: arial,sans-serif;
+background-color: rgba(6, 105, 19, 0.582);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding: 20px;}
+
+/*estilo do formulario*/
+form{background-color: rgb(171, 171, 189);
+padding:30px; 
+border-radius: 10px;
+box-shadow:0 4px 12px rgba(255, 255, 255, 0.61);
+width: 100%;
+max-width: 500px;}
+
+/*titulo do formulario*/
+h2{text-align: center; /*centraliza o txt*/
+font-size: 1.8rem;
+margin-bottom: 20px;
+color:rgb(0, 0, 0);
+font-family:'Segoe UI', Tahoma, Verdana, sans-serif;}
+
+/*estilos das labels*/
+label{font-size: 1rem;
+margin-bottom: 8px; /*espacamento interior*/
+color:#333;
+display:block;}/*faz o label ocupa ruma linha inteira*/
+
+/*estilo para os campos de entrada*/
